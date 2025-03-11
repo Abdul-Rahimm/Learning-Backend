@@ -7,3 +7,6 @@ const app = express();
 const PORT = 8383;
 
 app.listen(PORT, () => console.log("Server is running"));
+
+// why need nodemon?
+// dev tool - not used in production
